@@ -1,0 +1,16 @@
+# KiCad temporary and local files
+*.lck
+*.kicad_prl
+*.bak
+*.kicad_autosave
+fp-info-cache
+.history/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/

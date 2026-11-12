@@ -665,13 +665,17 @@
         "uuid": "ac5943fe-cab2-40e3-a494-fe988c29bf48"
       }
     ],
-    "used_designators": "IC1-3,R1,R_FSR1,U1-3",
+    "used_designators": "#FLG1,#PWR1-8,C1-2,D1,IC1-4,L1,R1-2,R_FSR1,U1-4",
     "variants": []
   },
   "sheets": [
     [
       "ac5943fe-cab2-40e3-a494-fe988c29bf48",
       "Final Project Smart Insole"
+    ],
+    [
+      "cb5673bb-1d50-409f-970d-65ba7f942e03",
+      "Power Management"
     ]
   ],
   "text_variables": {},

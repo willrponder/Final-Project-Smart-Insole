@@ -868,6 +868,855 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:TLV73333PDBV"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV73333PDBV"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "300mA LDO Regulator Fixed Positive Capacitor-Free"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV73333PDBV_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV73333PDBV_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Linear:TPS7A20xxxDBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS7A20xxxDBV"
+				(at 6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Output LDO Low-Iq Texas-Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS7A20xxxDBV_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+1V8"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1642,6 +2491,12 @@
 		)
 	)
 	(junction
+		(at 156.21 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55a32c4f-4d79-40d1-83c8-d132a59f37db")
+	)
+	(junction
 		(at 97.79 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1652,6 +2507,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71bb7546-b4b7-4073-800c-a1fa3a863c4a")
+	)
+	(junction
+		(at 110.49 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "786e8008-e2f4-4fbe-af77-c170f4963dc5")
 	)
 	(junction
 		(at 106.68 72.39)
@@ -1677,6 +2538,22 @@
 		(color 0 0 0 0)
 		(uuid "d1d58fed-f4f6-4e69-bae2-5891fdfa5472")
 	)
+	(junction
+		(at 158.75 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e04ac944-7cc4-4454-9777-9789ba6f99f3")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d21fad-0d3a-4b49-a69c-c6ac4a05f312")
+	)
 	(wire
 		(pts
 			(xy 143.51 67.31) (xy 140.97 67.31)
@@ -1689,13 +2566,33 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 69.85) (xy 109.22 69.85)
+			(xy 156.21 97.79) (xy 156.21 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f623c49-5f47-4ec8-815b-5cca771bfbfa")
+		(uuid "0ece6806-87c7-4942-a9e3-4c0156ef687c")
+	)
+	(wire
+		(pts
+			(xy 158.75 97.79) (xy 156.21 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1324374d-bd64-4387-a55d-2d5a08aa4c1e")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 83.82 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13937340-7f98-4a79-9833-befb13aff2c0")
 	)
 	(wire
 		(pts
@@ -1706,6 +2603,36 @@
 			(type default)
 		)
 		(uuid "169df3fb-a76d-4a2a-aae1-2940b7dc28d1")
+	)
+	(wire
+		(pts
+			(xy 176.53 66.04) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17b0826e-55ad-42c9-a10a-af7878447a7d")
+	)
+	(wire
+		(pts
+			(xy 158.75 66.04) (xy 153.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b9c4ef-a16c-4072-b76e-8698764af490")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6b6d03-9a47-4f9e-96da-a23b8de855c5")
 	)
 	(wire
 		(pts
@@ -1729,7 +2656,37 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 106.68 72.39)
+			(xy 158.75 68.58) (xy 158.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255d757e-1303-4c3e-96f8-5dc24dc6c41b")
+	)
+	(wire
+		(pts
+			(xy 161.29 68.58) (xy 158.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2627331d-8d6f-410b-9980-721260e51da9")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 158.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276efda5-3a19-48ae-8cdb-76e06724b567")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1769,16 +2726,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 62.23) (xy 109.22 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bc477d0-978c-48cd-961e-d485eb2898c5")
-	)
-	(wire
-		(pts
 			(xy 106.68 82.55) (xy 106.68 72.39)
 		)
 		(stroke
@@ -1799,6 +2746,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 93.98) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2da383-9101-4d56-9250-7b3dc1452a27")
+	)
+	(wire
+		(pts
 			(xy 95.25 68.58) (xy 97.79 68.58)
 		)
 		(stroke
@@ -1806,6 +2763,16 @@
 			(type default)
 		)
 		(uuid "8438efb2-23ee-45e5-9cf9-13743b840283")
+	)
+	(wire
+		(pts
+			(xy 153.67 58.42) (xy 153.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e04e3d-18e6-4787-92fb-02e99cf74c52")
 	)
 	(wire
 		(pts
@@ -1826,6 +2793,56 @@
 			(type default)
 		)
 		(uuid "90c52d68-b3fe-42a2-82e7-369e29cfdd97")
+	)
+	(wire
+		(pts
+			(xy 133.35 99.06) (xy 137.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ace456-d900-4496-a7ae-33508f3e70e2")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99076ee4-356d-44a0-8100-71d43c9c4aca")
+	)
+	(wire
+		(pts
+			(xy 140.97 76.2) (xy 140.97 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b54d38-21d7-4e3f-a88d-80d72ed5978a")
+	)
+	(wire
+		(pts
+			(xy 113.03 69.85) (xy 110.49 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87e8ef6-9719-477d-bb37-270c916e568b")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7b8577-9b71-4463-8841-21fc7a9bde40")
 	)
 	(wire
 		(pts
@@ -1859,6 +2876,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 105.41) (xy 166.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff47f9e-5787-4303-baa1-d51b339e768d")
+	)
+	(wire
+		(pts
 			(xy 101.6 68.58) (xy 97.79 68.58)
 		)
 		(stroke
@@ -1866,6 +2893,26 @@
 			(type default)
 		)
 		(uuid "d006fc53-8490-43b7-b8c8-72d5eb5d789f")
+	)
+	(wire
+		(pts
+			(xy 149.86 92.71) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4429eda-7ce5-4435-b2c1-c0bd5751a0f7")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d509f826-800d-495d-acf7-4767de3176fa")
 	)
 	(wire
 		(pts
@@ -1879,6 +2926,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 95.25) (xy 177.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c3c1d9-3747-482c-af1e-a88e545e4b72")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0401f8-2676-4544-b4de-dc56ddf9cd55")
+	)
+	(wire
+		(pts
 			(xy 95.25 60.96) (xy 97.79 60.96)
 		)
 		(stroke
@@ -1889,13 +2956,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 72.39) (xy 143.51 72.39)
+			(xy 140.97 76.2) (xy 137.16 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e248afca-54af-4bab-ad88-f7902368d1e7")
+	)
+	(wire
+		(pts
+			(xy 93.98 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efdeafa8-f556-4c8b-afc9-fb080d584f09")
 	)
 	(wire
 		(pts
@@ -1907,15 +2984,45 @@
 		)
 		(uuid "f9e0c86f-6164-40f6-b88f-7b0baf74b0ee")
 	)
-	(label "Vin"
-		(at 109.22 62.23 0)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 156.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2f1656-7c8d-4ea1-84a1-6b9d015c0907")
+	)
+	(label "5V_Boost"
+		(at 113.03 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3a455169-566a-4cc9-a9af-f64c4bd00a93")
+		(uuid "5271e3af-4386-4f9f-bb32-6ffba5eda1ca")
+	)
+	(label "5V_Boost"
+		(at 137.16 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "835476c4-9996-444b-9757-39f56e4625ba")
+	)
+	(label "5V_Boost"
+		(at 96.52 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3f9fac5-7d89-4c94-a50b-6f123ec4f79f")
 	)
 	(label "Vin"
 		(at 92.71 60.96 0)
@@ -1926,6 +3033,54 @@
 			(justify left bottom)
 		)
 		(uuid "bd6c4b79-b0ba-440b-bf7b-83eb76479c4c")
+	)
+	(global_label "Vled"
+		(shape input)
+		(at 119.38 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "398349fd-1ffd-416b-9340-8eacacfc9037")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.4034 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "5V_Input"
+		(shape input)
+		(at 96.52 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73812843-d794-4d7a-b9c1-206b5bfbde25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.5484 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+BATT")
@@ -1999,6 +3154,12 @@
 		(instances
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -2081,6 +3242,12 @@
 					(unit 1)
 				)
 			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2156,6 +3323,185 @@
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 128.27 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13c603fa-5b9d-4215-b00a-98f39a47086d")
+		(property "Reference" "SW2"
+			(at 128.27 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 128.27 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 128.27 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bc266d9-21c5-4b8c-8915-24fd2698976b")
+		)
+		(pin "2"
+			(uuid "e0baa357-dad3-4ca7-85bd-e5e3fed0347d")
+		)
+		(pin "3"
+			(uuid "195ca9c4-2279-40e2-9f03-1b74ef6e53b8")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 137.16 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a9203e6-0f64-46af-9ba2-ede5a597c65e")
+		(property "Reference" "#PWR010"
+			(at 137.16 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 137.16 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75346579-3cf3-484e-9ea1-581b35cad578")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2241,6 +3587,107 @@
 					(unit 1)
 				)
 			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS7A20xxxDBV")
+		(at 168.91 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2870ac0c-d4f6-4243-93a5-dceeaafc3cb7")
+		(property "Reference" "U1"
+			(at 168.91 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A20xxxDBV"
+			(at 168.91 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 168.91 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+			(at 168.91 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, SOT-23"
+			(at 168.91 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "227df239-3ddd-4346-ba1c-6a311825459c")
+		)
+		(pin "1"
+			(uuid "3ddc0a96-65b7-401d-9433-da8acb0d68a1")
+		)
+		(pin "5"
+			(uuid "7fad3a99-58b3-4aaf-9c36-eecba3834473")
+		)
+		(pin "3"
+			(uuid "af250d1c-f77e-4b75-9cad-ad1c2d8f3db7")
+		)
+		(pin "4"
+			(uuid "29c1b044-60d6-496d-bdb4-61eccd4537ac")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2316,6 +3763,180 @@
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 137.16 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "364f26ea-b746-4a5a-b2ef-64a8dbcda524")
+		(property "Reference" "#PWR015"
+			(at 137.16 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 137.16 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 137.16 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daed646c-5387-4328-b870-8aa7bee97fa1")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 149.86 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40653d09-c398-4297-a26c-99fb38338375")
+		(property "Reference" "#PWR012"
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 149.86 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 149.86 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9409b280-d07c-4403-a289-21a73b0d0022")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2434,11 +4055,17 @@
 					(unit 1)
 				)
 			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 113.03 48.26 0)
+		(lib_id "power:+3.3V")
+		(at 177.8 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2447,9 +4074,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ebdda3a-c0b8-48cb-9eed-86e4f8377836")
-		(property "Reference" "#PWR07"
-			(at 113.03 52.07 0)
+		(uuid "69de3c7d-11a1-434f-bbbd-10adaf597a0e")
+		(property "Reference" "#PWR014"
+			(at 177.8 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,8 +4086,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 113.03 43.18 0)
+		(property "Value" "+3.3V"
+			(at 177.8 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2470,7 +4097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 48.26 0)
+			(at 177.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2481,7 +4108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 48.26 0)
+			(at 177.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,8 +4118,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 113.03 48.26 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 177.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,12 +4130,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "015beec4-f773-48c6-a9f0-32628c7bf2ec")
+			(uuid "5385ab38-7c49-4935-8875-36c562372e6c")
 		)
 		(instances
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
-					(reference "#PWR07")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2592,6 +4225,180 @@
 					(unit 1)
 				)
 			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 153.67 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7e404ef-9b96-4fa7-8c91-c13a3329cc19")
+		(property "Reference" "#PWR013"
+			(at 153.67 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.67 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 153.67 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56c1aae1-9768-4e4f-ab35-9f1551fbd774")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 80.01 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf15e09b-815f-498d-b788-96ad4c908033")
+		(property "Reference" "#PWR09"
+			(at 80.01 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 80.01 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9cd6061-021f-49de-8ab1-86933ac37bff")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2667,6 +4474,12 @@
 		(instances
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -2749,6 +4562,12 @@
 					(unit 1)
 				)
 			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2824,6 +4643,12 @@
 		(instances
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
 					(reference "R2")
 					(unit 1)
 				)
@@ -2909,6 +4734,281 @@
 					(unit 1)
 				)
 			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV73333PDBV")
+		(at 166.37 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c91ed8-0aac-4673-a153-884be9d05605")
+		(property "Reference" "U2"
+			(at 166.37 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV73333PDBV"
+			(at 166.37 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 166.37 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+			(at 166.37 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 166.37 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "37cde61a-6020-4776-852f-9a786fb0c98c")
+		)
+		(pin "2"
+			(uuid "bec9a1bb-aaa8-425e-a67e-bf01bb073587")
+		)
+		(pin "1"
+			(uuid "2be27dc5-2b0a-4c13-96db-8929b79f2ad1")
+		)
+		(pin "3"
+			(uuid "33fa2d6f-7ae8-4f10-8182-7ce2fe51aab7")
+		)
+		(pin "5"
+			(uuid "c8d19b0a-b567-4c32-8ccb-cd435264512c")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 182.88 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db657e9e-a960-43f7-84cb-043333665b50")
+		(property "Reference" "#PWR07"
+			(at 182.88 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 182.88 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 182.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06ba0be3-4063-4b83-b7fb-ff196fa57d56")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 88.9 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e14a1209-8fd8-40c9-a7ab-f59ef0720f1b")
+		(property "Reference" "SW1"
+			(at 88.9 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 88.9 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 88.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d188898e-ff70-4932-a9e0-53e8f8f262f4")
+		)
+		(pin "2"
+			(uuid "7a1a8a96-df5c-4ea8-afa2-c36445a1f0a1")
+		)
+		(pin "3"
+			(uuid "7edd6d09-e92a-4d05-bd1a-ab720f365aa9")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2990,11 +5090,17 @@
 					(unit 1)
 				)
 			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 143.51 72.39 180)
+		(lib_id "power:GND")
+		(at 166.37 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3003,9 +5109,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee14927b-85c6-4cc3-99a1-5480fe16f16d")
+		(uuid "e7228624-8eea-4143-a67d-e6991ebaa41c")
 		(property "Reference" "#PWR06"
-			(at 143.51 68.58 0)
+			(at 166.37 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3015,8 +5121,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 143.51 77.47 0)
+		(property "Value" "GND"
+			(at 166.37 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3026,7 +5132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 72.39 0)
+			(at 166.37 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,7 +5143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 72.39 0)
+			(at 166.37 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3047,8 +5153,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 143.51 72.39 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3059,11 +5165,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "32b0ca5d-5b64-4773-851b-a10abc1c2589")
+			(uuid "274c010f-bc71-4b2a-bfac-5988e5d0b224")
 		)
 		(instances
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -3146,6 +5258,96 @@
 					(unit 1)
 				)
 			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efc98d18-d495-4eb7-8766-78c5ad67dce7")
+		(property "Reference" "#PWR011"
+			(at 168.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.704 77.978 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b261b088-75f2-4d04-b30b-8738833e1093")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3222,6 +5424,12 @@
 		(instances
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
 					(reference "L1")
 					(unit 1)
 				)
@@ -3388,6 +5596,12 @@
 		(instances
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+			(project "PowerManagement"
+				(path "/e8de4b57-51f5-4980-8b7e-c44eb05bfa5b"
 					(reference "IC4")
 					(unit 1)
 				)

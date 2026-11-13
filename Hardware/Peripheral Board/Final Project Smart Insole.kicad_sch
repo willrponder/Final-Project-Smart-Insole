@@ -2846,6 +2846,52 @@
 		)
 	)
 	(sheet
+		(at 205.74 106.68)
+		(size 49.53 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "31d17233-eefa-41b1-b569-8dd5f701753e")
+		(property "Sheetname" "Sensing"
+			(at 205.74 105.9684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensing.kicad_sch"
+			(at 205.74 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 194.31 25.4)
 		(size 67.31 52.07)
 		(exclude_from_sim no)
@@ -2872,7 +2918,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "PowerManagement.kicad_sch"
 			(at 194.31 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)

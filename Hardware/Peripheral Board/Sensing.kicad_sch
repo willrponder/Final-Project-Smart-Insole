@@ -5,6 +5,164 @@
 	(uuid "c9c3b229-dc74-4a22-9259-d7a7e51ad904")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1677,6 +1835,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 83.82) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99978188-5fe0-4ecf-beba-2dc571d2aa1e")
+	)
+	(wire
+		(pts
 			(xy 163.83 111.76) (xy 149.86 111.76)
 		)
 		(stroke
@@ -1727,6 +1895,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 83.82) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c182efc1-68da-4c04-8204-dd905301f76c")
+	)
+	(wire
+		(pts
 			(xy 168.91 116.84) (xy 179.07 116.84)
 		)
 		(stroke
@@ -1767,6 +1945,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 86.36) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfca5a6f-6aa4-4605-90cd-26eeb52d3344")
+	)
+	(wire
+		(pts
 			(xy 85.09 119.38) (xy 92.71 119.38)
 		)
 		(stroke
@@ -1774,6 +1962,16 @@
 			(type default)
 		)
 		(uuid "d52c279e-d9a6-45e7-8769-0e0d0f7052f9")
+	)
+	(wire
+		(pts
+			(xy 111.76 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d902ad33-909d-425d-8a70-aaefb96ba64a")
 	)
 	(wire
 		(pts
@@ -1845,29 +2043,45 @@
 		)
 		(uuid "fb081712-483e-4e96-9432-8b80243bacbc")
 	)
-	(global_label "SDA1"
-		(shape input)
-		(at 95.25 104.14 0)
-		(fields_autoplaced yes)
+	(label "SCL1"
+		(at 95.25 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "0237d52b-8309-4ea6-9861-e0751061a166")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.0128 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "1ca52745-cde5-4205-a825-8d3113a9eb13")
+	)
+	(label "SCL1"
+		(at 114.3 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
+		(uuid "6c0713f0-150d-42e3-968b-eace2daa063d")
+	)
+	(label "SDA1"
+		(at 95.25 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae5845bf-e1d1-45c5-9d14-b567c124fb4c")
+	)
+	(label "SDA1"
+		(at 114.3 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c21c8ac1-efdd-4d49-8969-5547e267b635")
 	)
 	(global_label "INT"
 		(shape input)
@@ -1882,30 +2096,6 @@
 		(uuid "45d603d3-d6e2-46e6-bb3e-eb09dd09090c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.5581 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SCL1"
-		(shape input)
-		(at 95.25 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c63f70a-f821-4b29-be71-988678e05768")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.9523 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,54 +2176,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "SDA1"
-		(shape input)
-		(at 114.3 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ded96192-e209-4c01-89a1-b082d33d0ab3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5372 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCL1"
-		(shape input)
-		(at 114.3 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e6a7b407-98d1-4824-973a-9b4154414c7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5977 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -2495,88 +2637,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 109.22 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "403b14fc-2918-4d20-8f1f-4b5f8941d1b9")
-		(property "Reference" "R_FSR2"
-			(at 111.76 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 111.76 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
-			(at 107.442 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 109.22 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "401509ad-59f7-4cde-89a6-27093b0d5453")
-		)
-		(pin "2"
-			(uuid "0e113126-7eab-435e-a35d-9e63b340e7db")
-		)
-		(instances
-			(project "Final Project Smart Insole"
-				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/31d17233-eefa-41b1-b569-8dd5f701753e"
-					(reference "R_FSR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 114.3 111.76 270)
 		(unit 1)
@@ -2809,6 +2869,88 @@
 			(project "Final Project Smart Insole"
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/31d17233-eefa-41b1-b569-8dd5f701753e"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 116.84 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c9bf700-3291-440d-8d21-12a589510fb9")
+		(property "Reference" "J4"
+			(at 119.38 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FSR"
+			(at 119.38 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 116.84 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 116.84 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "889a765b-4861-4292-a05a-c59428897a1b")
+		)
+		(pin "2"
+			(uuid "60f2a9a2-7a75-4990-b12f-151efef3f6dc")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/31d17233-eefa-41b1-b569-8dd5f701753e"
+					(reference "J4")
 					(unit 1)
 				)
 			)

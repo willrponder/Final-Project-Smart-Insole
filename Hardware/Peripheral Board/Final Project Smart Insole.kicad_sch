@@ -761,160 +761,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Variable"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 -2.54 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Variable"
-				(at -2.54 -1.27 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Variable resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Variable_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.524) (xy 2.54 2.54) (xy 1.524 2.54) (xy 2.54 2.54) (xy -2.032 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Variable_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:SM712_SOT23"
 			(pin_names
 				(offset 1.016)
@@ -1843,6 +1689,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:PVG3A104C01R00"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "VR"
+				(at 24.13 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PVG3A104C01R00"
+				(at 24.13 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 24.13 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 24.13 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description_1" ""
+				(at 24.13 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Height" ""
+				(at 24.13 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 24.13 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 24.13 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 24.13 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 24.13 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "PVG3A104C01R00_0_0"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CCW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "WI[ER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "CW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PVG3A104C01R00_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:SN65HVD75DGK"
 			(pin_names
 				(offset 0.762)
@@ -2210,6 +2263,10 @@
 		(color 0 0 0 0)
 		(uuid "f2746483-5cd8-4042-8c40-9f1e74a32531")
 	)
+	(no_connect
+		(at 132.08 44.45)
+		(uuid "9dd0a5c4-7116-4e40-8d73-a515d69bdfcd")
+	)
 	(wire
 		(pts
 			(xy 186.69 107.95) (xy 182.88 107.95)
@@ -2309,6 +2366,16 @@
 			(type default)
 		)
 		(uuid "1ac2baa8-0079-4d7f-82c8-ed756728aefc")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac4be18-2eba-4b32-8b64-c08c52bfb7be")
 	)
 	(wire
 		(pts
@@ -2422,6 +2489,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 41.91) (xy 160.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b79db0-6057-417b-a904-6e282a3570bc")
+	)
+	(wire
+		(pts
 			(xy 175.26 93.98) (xy 175.26 102.87)
 		)
 		(stroke
@@ -2522,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 52.07) (xy 127 52.07)
+			(xy 115.57 52.07) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2559,6 +2636,16 @@
 			(type default)
 		)
 		(uuid "87b8420c-7bb6-44eb-9054-8e70c2973c2f")
+	)
+	(wire
+		(pts
+			(xy 127 41.91) (xy 127 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89566db4-dc59-4f25-b4dd-fceeb696ed9e")
 	)
 	(wire
 		(pts
@@ -2599,16 +2686,6 @@
 			(type default)
 		)
 		(uuid "a127bd4a-f46d-4ec8-ba73-aff8dbf00895")
-	)
-	(wire
-		(pts
-			(xy 127 46.99) (xy 127 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a267a031-26f8-4efc-bf75-95248943cf26")
 	)
 	(wire
 		(pts
@@ -2672,6 +2749,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 121.92) (xy 68.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00a342e-3eb7-4e48-8e32-31a6897668bb")
+	)
+	(wire
+		(pts
 			(xy 149.86 105.41) (xy 148.59 105.41)
 		)
 		(stroke
@@ -2729,6 +2816,16 @@
 			(type default)
 		)
 		(uuid "e536a96f-91ec-4131-a7cf-ff1f84c50aad")
+	)
+	(wire
+		(pts
+			(xy 132.08 41.91) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e712a38d-8934-49e8-97ef-352c8f5d40cb")
 	)
 	(wire
 		(pts
@@ -2952,7 +3049,7 @@
 	)
 	(global_label "5V_Input"
 		(shape input)
-		(at 104.14 121.92 180)
+		(at 99.06 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2962,7 +3059,7 @@
 		)
 		(uuid "1237ed6b-6711-4add-93a9-fb959d33525f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.1116 121.92 0)
+			(at 88.0316 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,7 +3073,7 @@
 	)
 	(global_label "5V_Input"
 		(shape input)
-		(at 68.58 121.92 180)
+		(at 64.77 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2986,7 +3083,7 @@
 		)
 		(uuid "36911255-05cb-4153-ae05-22db0984b9a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.5516 121.92 0)
+			(at 53.7416 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3307,7 +3404,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.122 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -3388,7 +3485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 59.9948 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3717,7 +3814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -3797,7 +3894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "footprints:SOP65P490X110-8N"
 			(at 171.45 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3971,7 +4068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.5352 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4208,7 +4305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.4652 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4289,7 +4386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 93.0148 0)
 			(hide yes)
 			(show_name no)
@@ -4346,7 +4443,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "69ae7230-4326-4a08-b7ac-d8981d8e1e85")
 		(property "Reference" "R16"
 			(at 194.818 106.934 0)
@@ -4370,7 +4467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.452 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -4451,7 +4548,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 91.948 90)
 			(hide yes)
 			(show_name no)
@@ -4578,6 +4675,163 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:PVG3A104C01R00")
+		(at 132.08 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c4aea12-abd2-43e5-a260-4db516ccf885")
+		(property "Reference" "VR1"
+			(at 146.05 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PVG3A104C01R00"
+			(at 146.05 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:PVG3A104C01R00"
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" ""
+			(at 156.21 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" ""
+			(at 156.21 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 156.21 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 156.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 156.21 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 156.21 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "f00ea0c2-21f6-438a-8035-0b5c05c5ad25")
+		)
+		(pin "3"
+			(uuid "733e333c-58fc-439d-96b0-a66ee9bb342c")
+		)
+		(pin "1"
+			(uuid "a4cb3a39-50e0-48cc-9769-c87e2c9efbb4")
+		)
+		(instances
+			(project "Final Project Smart Insole"
+				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48"
+					(reference "VR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 96.52 55.88 180)
 		(unit 1)
@@ -4610,7 +4864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.298 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -4770,7 +5024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P326X110-16N"
+		(property "Footprint" "footprints:SOP50P326X110-16N"
 			(at 134.62 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -4967,7 +5221,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 65.532 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -5126,7 +5380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 107.188 90)
 			(hide yes)
 			(show_name no)
@@ -5444,7 +5698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 109.22 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5532,7 +5786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 73.66 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5778,7 +6032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 62.738 78.74 90)
 			(hide yes)
 			(show_name no)
@@ -5859,7 +6113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 75.8952 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5992,88 +6246,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Variable")
-		(at 127 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f93ed4a4-a2ac-42be-a4f1-9bfb87e96a0f")
-		(property "Reference" "R19"
-			(at 130.81 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Variable"
-			(at 130.81 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.222 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Variable resistor"
-			(at 127 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bbc99cf7-1b98-4282-ab39-7c099ad0dfa2")
-		)
-		(pin "2"
-			(uuid "a791b475-94d9-48c0-b6a0-0b7d2b4d21d2")
-		)
-		(instances
-			(project "Final Project Smart Insole"
-				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 74.93 67.31 180)
 		(unit 1)
@@ -6184,7 +6356,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 98.298 45.72 90)
 			(hide yes)
 			(show_name no)

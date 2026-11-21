@@ -466,6 +466,216 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JS102011SAQN_1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S1"
+				(at 10.1599 3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "JS102011SAQN"
+				(at 12.6999 3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "footprints:JS102011SAQN"
+				(at 19.05 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 19.05 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description_1" ""
+				(at 19.05 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Height" ""
+				(at 19.05 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 19.05 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 19.05 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer_Name" ""
+				(at 19.05 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer_Part_Number" ""
+				(at 19.05 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "JS102011SAQN_1_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "N.O."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "JS102011SAQN_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:TLV73333PDBV"
 			(pin_names
 				(offset 0.254)
@@ -1731,8 +1941,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "S"
-				(at 19.05 7.62 0)
+			(property "Reference" "S2"
+				(at 10.1599 3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1743,7 +1953,7 @@
 				)
 			)
 			(property "Value" "JS102011SAQN"
-				(at 19.05 5.08 0)
+				(at 12.6999 3.81 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1753,7 +1963,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "footprints:JS102011SAQN"
 				(at 19.05 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1861,7 +2071,7 @@
 				)
 			)
 			(symbol "JS102011SAQN_0_0"
-				(pin no_connect line
+				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
 					(name "N.C."
@@ -2240,12 +2450,6 @@
 		(uuid "786e8008-e2f4-4fbe-af77-c170f4963dc5")
 	)
 	(junction
-		(at 92.71 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86eab1d5-4c7c-4be0-a5ae-593371c3be7f")
-	)
-	(junction
 		(at 106.68 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2427,16 +2631,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 93.98) (xy 92.71 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2733652b-66f3-4be7-ad70-24049349b051")
-	)
-	(wire
-		(pts
 			(xy 161.29 66.04) (xy 158.75 66.04)
 		)
 		(stroke
@@ -2557,16 +2751,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 109.22) (xy 92.71 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b0dfe0-a513-4f67-bcba-6d75159c588b")
-	)
-	(wire
-		(pts
 			(xy 125.73 106.68) (xy 125.73 93.98)
 		)
 		(stroke
@@ -2587,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 96.52 93.98)
+			(xy 90.17 93.98) (xy 96.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2797,13 +2981,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 92.71 109.22)
+			(xy 90.17 93.98) (xy 90.17 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc897794-58f3-4574-acc4-2c8eda6caa92")
+		(uuid "efbe25fc-8d98-4e7d-82ac-21381b4a42bb")
 	)
 	(wire
 		(pts
@@ -3657,10 +3841,6 @@
 		)
 		(instances
 			(project "Final Project Smart Insole"
-				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48"
-					(reference "S2")
-					(unit 1)
-				)
 				(path "/ac5943fe-cab2-40e3-a494-fe988c29bf48/cb5673bb-1d50-409f-970d-65ba7f942e03"
 					(reference "S2")
 					(unit 1)
@@ -3915,6 +4095,7 @@
 		)
 	)
 	(symbol
+		(lib_name "JS102011SAQN_1")
 		(lib_id "symbols:JS102011SAQN")
 		(at 90.17 106.68 270)
 		(unit 1)

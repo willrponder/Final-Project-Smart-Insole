@@ -2230,17 +2230,17 @@
 	)
 	(global_label "INT"
 		(shape input)
-		(at 153.67 99.06 0)
+		(at 153.67 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "45d603d3-d6e2-46e6-bb3e-eb09dd09090c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.5581 99.06 0)
+			(at 147.7819 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2248,7 +2248,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -4550,6 +4550,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 64.77 111.76 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4559,7 +4560,7 @@
 		(dnp no)
 		(uuid "ff04d987-71e2-447d-a2cd-41e9964dc2af")
 		(property "Reference" "R7"
-			(at 59.182 109.728 0)
+			(at 70.358 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4570,7 +4571,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 58.674 111.506 0)
+			(at 70.866 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4581,7 +4582,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 62.992 111.76 90)
+			(at 66.548 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
